@@ -63,14 +63,27 @@ section.normal {
 }
 
 section.imagem {
-   background-color: rgb(50, 49, 49);
    color: white;
+   box-shadow: inset 6px 4px 13px 0px rgba(0, 0, 0, 0.647);
+   background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
-    background-color: rgba(14, 14, 14, 0.543);
+    background-color: rgba(14, 14, 14, 0.443);
     padding: 10px;
+    text-shadow: 1px;
+}
+
+section#img01 {
+   background-image: url('../Projetos/Projeto-Cordel/background001.jpg');
+   background-position: center right;
+   background-size: cover;
+}
+
+section#img02 {
+   background-image: url('../Projetos/Projeto-Cordel/background002.jpg');
+   background-size: cover;
 }
 
 footer {
